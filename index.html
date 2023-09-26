@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar2">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+            <a href="index.html">Google Search</a>
+        </nav>
+        <nav class="navbar1">
+            <a href="#">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+            <a href="https://www.google.com/advanced_search">Advanced Search</a>
+            <a href="#"><i class='bx bxs-grid' style='color:#e8eaed; font-size: 23px' ;></i></a>
+        </nav>
+    </header>
+    <section>
+        <div class="logo">
+            <img src="images/googlelogo_light_color_272x92dp.png" alt="google">
+        </div>
+    </section>
+    <div class='search-bar'>
+        <form action="https://www.google.com/search" class="search-bar1">
+            <img class="search1" src="images/search.png" alt="searchicon">
+            <img class="mic1" src="images/mic.png" alt="micicon">
+            <img class="camera1" src="images/camera.png" alt="cameraicon">
+            <input id="search" text="type" style="font-size: 20px; color: #ededed;" name="q" placeholder="">
+            <input type="submit" hidden onclick="showAlert()">
+        </form>
+
+    </div>
+    <div class="button">
+        <button onclick="showAlert()" type="Google Search">Google Search</button>
+        <button onclick="showAlert()" type="I'm Feeling Lucky">I'm Feeling Lucky</button>
+    </div>
+    <footer>
+        <div class="footbar1">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div class="footbar2">
+            <a
+                href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img
+                    src="images/leaf.png" alt=""> Our third decade of climate action: join us</a>
+        </div>
+        <div class="footbar3">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

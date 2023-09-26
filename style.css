@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #202124;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: #e8eaed;
+    margin: 20px;
+}
+
+.navbar1 a:hover {
+    text-decoration: underline;
+    color: #e8eaed;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: #e8eaed;
+    margin: 20px;
+}
+
+a i {
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+a i:hover {
+    background-color: #e8eaed;
+    opacity: 0.1;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 500px;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.search-bar1 {
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar:hover {
+    color: #BABCBE;
+}
+
+.search1 {
+    position: absolute;
+    left: 35px;
+}
+
+.mic1 {
+    position: absolute;
+    right: 90px;
+}
+
+.camera1 {
+    position: absolute;
+    right: 40px;
+}
+
+input {
+    width: 100%;
+    padding: 2px 60px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    font: 16px;
+    height: 50px;
+    cursor: text;
+}
+
+.navbar2 a:hover {
+    text-decoration: underline;
+    color: #e8eaed;
+}
+
+.button {
+    position: absolute;
+    top: 600px;
+    color: #e8eaed;
+
+}
+
+.button button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    padding: 10px 20px;
+    font-size: 16px;
+
+
+}
+
+.button button:hover {
+    outline: #e8eaed;
+    border-color: #e8eaed;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: #171717;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+footer>* {
+    background: #171717;
+}
+
+.footbar1 a,
+.footbar2 a,
+.footbar3 a {
+    text-decoration: none;
+    color: #bdc1c6;
+    margin: 8px;
+    background-color: #171717;
+}
+
+.footbar1 a:hover,
+.footbar2 a:hover,
+.footbar3 a:hover {
+    text-decoration: underline;
+    color: #e8eaed;
+}
